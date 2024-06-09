@@ -1,14 +1,16 @@
 {
-  "name": "jiffy",
+  "name": "express",
   "version": "1.0.0",
-  "description": "Jiffy UserApp RestFull Api",
-  "main": "app.js",
+  "description": "This is jiffy backend code",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sudip das",
+  "author": "Sudip Das",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1"
   }
 }
